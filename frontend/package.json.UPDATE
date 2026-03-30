@@ -1,0 +1,19 @@
+# Add these dependencies to package.json:
+
+```json
+"dependencies": {
+  ...existing dependencies...,
+  "react-beautiful-dnd": "^13.1.1",
+  "@mui/icons-material": "^5.14.0"
+}
+```
+
+```json
+"devDependencies": {
+  ...existing devDependencies...,
+  "@types/react-beautiful-dnd": "^13.1.4"
+}
+```
+
+# Then run:
+npm install
